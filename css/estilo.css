@@ -1,12 +1,12 @@
 body{
     background-color: #c7ffc5;
+    font-family: cursive;
 }
 header{
     background-color:#12da7d;
     color: #fff;
     text-align: center;
     padding:15px 20px;
-    font-family: cursive;
     border: 2px solid #04db44;
     border-radius: 20px;
 
