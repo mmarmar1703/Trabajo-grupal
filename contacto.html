@@ -2,37 +2,65 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Actividad 15 por Marco">
-        <title>Actividad 15: Documentación para CSS</title>
+        <meta name="description" content="Trabajo colaborativo">
+        <title>¡Qué chungos los chumbos!</title>
         <link rel="stylesheet" href="./css/estilo.css">
     </head>
     <body>
         <header>
-            <h1 id="titulo">Encabezado</h1>
+            <h1 id="titulo">¡Qué chungos los chumbos!</h1>
             <nav id="menuPrincipal">
                 <ul>
-                    <li><a href="index.html" class="enlaceMenuPrincipal">Enlace 1</a></li>
-                    <li><a href="nosotros.html" class="enlaceMenuPrincipal">Enlace 2</a></li>
-                    <li><a href="contacto.html" class="enlaceMenuPrincipal">Enlace 3</a></li>
+                    <li><a href="index.html" class="enlaceMenuPrincipal">Inicio</a></li>
+                    <li><a href="nosotros.html" class="enlaceMenuPrincipal">Nosotros</a></li>
+                    <li><a href="contacto.html" class="enlaceMenuPrincipal">Contacto</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <section>
-                <h2 class="tituloSeccion">Sección Principal</h2>
-                <article>
-                    <h3>Artículo 1</h3>
-                    <p>Contenido del artículo 1</p>
-                </article>
-                <article>
-                    <h3>Artículo 2</h3>
-                    <p>Contenido del artículo 2</p>
-                </article>
+                <h2 class="tituloSeccion">¿Quieres ser parte de nuestra paleta?</h2>
+                <p>Si tienes alguna pregunta o te apetece ponerte en contacto con nosotros puedes contactar con nosotros rellenando el siguiente formulario</p>
+                <form action="#" method="get">
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <br>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre"><br><br>
+                        <label for="correo electronico">Correo electrónico</label>
+                        <input type="email" id="correo electronico" name="correo electronico"><br><br>
+                        <fieldset>
+                            <legend>¿Con qué chumbo te identificas?</legend>
+                            <label for="rojo">Chumbo rojo</label>
+                            <input type="radio" id="rojo" name="genero" value="rojo">
+        
+                            <label for="verde">chumbo verde</label>
+                            <input type="radio" id="verde" name="genero" value="verde">
+        
+                            <label for="rojo_y_verde">chumbo rojo y verde</label>
+                            <input type="radio" id="rojo_y_verde" name="genero" value="rojo_y_verde">
+                        </fieldset><br>
+                        <fieldset>
+                            <legend>¿Qué te parecen los chumbos?</legend>
+                            <label for="1">Cojonudos</label>
+                            <input type="checkbox" id="1" name="deporte" value="1">
+        
+                            <label for="2">Buenisimos</label>
+                            <input type="checkbox" id="2" name="deporte" value="2">
+        
+                            <label for="2">La ostia</label>
+                            <input type="checkbox" id="2" name="deporte" value="2">
+                        </fieldset><br>
+                            <label for="Comentario">Comenta por que quieres contactar con nosotros</label><br>
+                            <textarea id="Comentario" rows="6" cols="40"></textarea><br>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpiar</button>
+                    </fieldset>
+                </form>
             </section>
         </main>
         <footer>
-            <p>Pie de página</p>
+            <p>© Todos los derechos reservados a quechungosloschumbos.omg.org</p>
         </footer>
-
     </body>
 </html>
